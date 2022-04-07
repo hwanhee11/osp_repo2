@@ -2,6 +2,9 @@
 
 num1=$(<num1.txt)
 num2=$(<num2.txt)
+arr[0]=num1
+arr[1]=num2
+
 menu=$1
 
 if [[ "$menu" = "add" ]]; then
